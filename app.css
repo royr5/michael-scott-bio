@@ -1,3 +1,16 @@
+body{
+    background-image: url(intro-penn-paper-scranton-welcomes-you.gif);
+}
+nav, section{
+    background-color: white;
+    opacity: 0.96;
+    border:lightgray 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav{
+    opacity: 0.8;
+}
 .headerImg {
     height: auto;
     width: auto;
@@ -19,7 +32,14 @@
   }
 
 
-h1,h2 {
+h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin: 20px 0px 20px 20px;
+    font-size: 50px;
+    text-shadow: 5px 5px lightgray;
+    font-weight: 1000;
+}
+h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 50px 0px 20px 8px;
     
@@ -64,13 +84,15 @@ p{
 
 .gridtitle{
     font-weight: bold;
-    font-size: large;
+    font-size: 30px;
     text-align: center;
+    margin: 0;
 }
 
 
 .bullet{
     color: #000;
+    font-size: 20px;
 }
 
 .end-grid {
@@ -94,4 +116,14 @@ p{
 .final-img{
     width: 100%;
     height: auto;
+}
+
+.socials{
+    font-size: 20px;
+    width: 100%
+    a
+}
+
+ol{
+    margin-bottom: 40px
 }
